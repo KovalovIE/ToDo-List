@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <main class="main" id="main">
+        <article class="app-todo">
+            <section class="header">
+                <div>
+                    <h1>ToDo List</h1>
+                </div>
+                <div>
+                    <button class="btn-add" id="addTasks">Add Task</button>
+                </div>
+            </section>
+            <section class="div-tasks" id="addNewTaskSection">
+                <div class="tasks">
+                    <input type="checkbox"/>
+                    <p>Do Home Task</p>
+                    <span class="close">[x]</span>
+                </div>
+                <div class="tasks">
+                    <input type="checkbox"/>
+                    <p>Check Structure</p>
+                    <span class="close">[x]</span>
+                </div>
+                <div class="tasks">
+                    <input type="checkbox"/>
+                    <p>Write Tests</p>
+                    <span class="close">[x]</span>
+                </div>
+            </section>
+        </article>
+        <article class="toggle-task" id="toggleArticle">
+            <div class="add-task">
+                <input type="text" placeholder="Enter name task" id="textNewTask">
+                <img  class="window-minimize" id="removeWindowMinimize" width="20px" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAF+SURBVGhD7dq7LwVBGMbh1VBqXHpRUbg0ItFINEgkChKlRCdaoRcKGo2OFn8JpRIJopeIW0Lh8vsmIefM+daZQs58c8ybPM3u7Gbe7C3Z3aIkw9jGGe7wGdEzzrGPabSgbjpxhA9oO7XgBIMoTR9uoG1sjRylWdREjkQqJb69YQRVOYY22LprtMFFzjfL10Q9y3DZgTYgFadwkVusNiAV72hH9OfEX5A7rroiNWNQV6QmF7EmF7EmF7EmF7EmF7EmF7EmF7EmF7EmF7Hm/xWRF3i7mMdcg6ziEdp8fMFFDhEj8hZRm48vuMg6YkQmqM3HF1xkDTGSi5RpmiJ7iJEFaPPxBRd5xRJ60dMgk7iFNh9fcBHrmqvIU8WCVA3BfYzXVqakC8VBxYIUXcBlCtqAVGzCRf7tkC+j2iDrHtCBnwzgBdpgyxZRkxnIg0/bwKINlGYUV9A2tOIe6pHw04oVyHUjH+O1ncVwiS1UXROhkT8K+jGOiUjkYdeNX1IUX9gORZx5QP8yAAAAAElFTkSuQmCC">
+            </div>
+        </article>
+    </main>
+
+    <script src="script/script.js"></script>
+</body>
+</html>
