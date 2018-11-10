@@ -47,6 +47,10 @@ label {
 .close:hover {
     background: #ffffff;
 }
+.p-tag-size {
+    width: 80%;
+    text-align: center;
+}
 .add-task {
     position: absolute;
     top: calc(50% - 100px);
